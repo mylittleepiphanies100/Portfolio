@@ -141,6 +141,13 @@ img {
   }
 }
 
+@media (max-width:629px) {
+  img#optionalstuff {
+    display: none;
+  }
+}
+
+
 .nav__item {
   margin-bottom: var(--mb-4);
 }
